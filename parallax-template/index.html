@@ -12,7 +12,8 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
-      <nav class="white" role="navigation navbar-fixed">
+    <div class="navbar-fixed">
+        <nav class="white" role="navigation ">
         <div class="nav-wrapper container">
           <a id="logo-container" href="#" class="brand-logo">
               <img class="responsive-img" style="height:50px" src="imgs/webmonsterlogo.png"/>
@@ -29,6 +30,8 @@
           <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
       </nav>
+    </div>
+      
 
       <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
@@ -50,7 +53,7 @@
 
 
       <div class="container">
-        <div class="section" id="team">
+        <div class="section" id="team" style="padding-top:100px">
             <div class="center-align">
                 <h3 class="center-align">Our Awesome Team </h3>
             </div>
@@ -102,13 +105,23 @@
                         <img src="imgs/rrobles.jpg" class="responsive-img circle wm-foto"/>
                     </div>
                     <div class="row center">
-                  <span class="card-title activator grey-text text-darken-4">René A. Robles Robles<i class="material-icons right">more_vert</i></span>
+                  <span class="card-title activator grey-text text-darken-4"><div class="chip">
+                        <img src="imgs/rrobles.jpg" alt="Contact Person">
+                        René A. Robles Robles
+                      </div><i class="material-icons right">more_vert</i></span>
                   <p><a href="#">This is a link</a></p>
                     </div>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">René A. Robles Robles<i class="material-icons right">close</i></span>
+                    
+                  <span class="card-title grey-text text-darken-4">
+                      <div class="chip">
+                        <img src="imgs/rrobles.jpg" alt="Contact Person">
+                        René A. Robles Robles
+                      </div>
+                      <i class="material-icons right">close</i></span>
                   <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                     
                 </div>
               </div>
             </div>
@@ -118,7 +131,7 @@
 
                 <div class="card-content">
                     <div class="row center">
-                    <img src="imgs/dvazquez.jpg" class="responsive-img circle wm-foto"/>
+                    <img src="imgs/dvazquez2.jpg" class="responsive-img circle wm-foto"/>
                     </div>
                     <div class="row center">
                   <span class="card-title activator grey-text text-darken-4">Denisse Vázquez Miguel<i class="material-icons right">more_vert</i></span>
@@ -188,7 +201,7 @@
             <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
             <div class="caption center-align">
               <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              <h5 class="light grey-text text-lighten-4">Here's our small slogan.</h5>
             </div>
           </li>
           <li>
