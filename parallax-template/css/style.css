@@ -65,7 +65,27 @@ video{
 .icon-block .material-icons {
   font-size: inherit;
 }
+.retraso-1{
+  -webkit-animation-delay:1s;
+  -moz-animation-delay:1s;
+  animation-delay:1s;
 
+}
+.retraso-2{
+  animation-delay:2s;
+  -webkit-animation-delay:2s;
+  -moz-animation-delay:2;
+}
+.retraso-3{
+  animation-delay:3s;
+  -webkit-animation-delay:3s;
+  -moz-animation-delay:3s;
+}
+.retraso-5{
+  animation-delay:5s;
+  -webkit-animation-delay:5s;
+  -moz-animation-delay:5s;
+}
 footer.page-footer {
   margin: 0;
 }
@@ -73,3 +93,4 @@ footer.page-footer {
 .parallax-container {
       height: 100vh;
     }
+
