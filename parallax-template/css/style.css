@@ -17,6 +17,22 @@ p {
   line-height: 2rem;
 }
 
+video{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: auto;
+    z-index: -100;
+
+}
+
 .button-collapse {
   color: #26a69a;
 }
