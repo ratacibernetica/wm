@@ -1,0 +1,34 @@
+{
+  "name": "This is Webmonster",
+  "productName": "This is Webmonster",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0",
+    "hammerjs": "^2.0.4",
+   "jquery": "^2.2.4",
+   "jquery-easing": "0.0.1",
+   "materialize-css": "^0.97.3",
+   "pickadate": "^3.5.6"
+  }
+}

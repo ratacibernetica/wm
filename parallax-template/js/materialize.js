@@ -8,6 +8,7 @@ if (typeof(jQuery) === 'undefined') {
   var jQuery;
   // Check if require is a defined function.
   if (typeof(require) === 'function') {
+    console.log('jquery not found, yo');
     jQuery = $ = require('jquery');
   // Else use the dollar sign alias.
   } else {
@@ -1960,7 +1961,7 @@ $(document).ready(function(){
         }
         else {
           // Insert as text;
-          toast.innerHTML = html; 
+          toast.innerHTML = html;
         }
         // Bind hammer
         var hammerHandler = new Hammer(toast, {prevent_default: false});
@@ -2539,9 +2540,9 @@ $(document).ready(function(){
 		    var offset = $(this.hash).offset().top + 1;
 
 //          offset - 200 allows elements near bottom of page to scroll
-			
+
 	    	$('html, body').animate({ scrollTop: offset - 200 }, {duration: 400, queue: false, easing: 'easeOutCubic'});
-			
+
 		  });
 		});
 		options = options || {
@@ -2742,7 +2743,7 @@ $(document).ready(function(){
         $(this).addClass('tabbed');
         var $this = $(this);
         $this.one('blur', function(e) {
-          
+
           $(this).removeClass('tabbed');
         });
         return;
@@ -5078,7 +5079,7 @@ return PickerConstructor
 
     // Node.js/browserify.
     else if ( typeof exports == 'object' )
-        module.exports = factory( require('./picker.js'), require('jquery') )
+        module.exports = factory( require('../node_modules/pickadate/lib/picker.js'), require('jquery') )
 
     // Browser globals.
     else factory( Picker, jQuery )
