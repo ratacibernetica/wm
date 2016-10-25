@@ -12,6 +12,12 @@ nav ul a,
 nav .brand-logo {
   color: #444;
 }
+.navWM{
+  opacity: 0.4;
+}
+.navWM:hover{
+  opacity: 0.9;
+}
 .wm-foto{
     width:  170px;
 }
@@ -34,6 +40,27 @@ video{
     z-index: -100;
 
 }
+.vidio{
+  background-color: black;
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+.vidio{
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: auto;
+    z-index: -100;
+} 
 
 .button-collapse {
   color: #26a69a;

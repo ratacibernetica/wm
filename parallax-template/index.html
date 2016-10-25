@@ -4,7 +4,7 @@
               <meta charset="utf-8">
               <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
               <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-              <title>WebMonster.mx</title>
+              <title>WebMonster</title>
               <!-- CSS  -->
               <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
               <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -12,9 +12,10 @@
               <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
               <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
               <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
             </head>
             <body>
-            <div class="navbar-fixed">
+            <div class="navbar-fixed navWM">
                 <nav class="white" role="navigation ">
                 <div class="nav-wrapper container">
                   <a id="logo-container" href="#" class="brand-logo">
@@ -42,21 +43,21 @@
                 <i class="fa fa-rocket" aria-hidden="true"></i>
               </a>
               <ul>
+              <li><a class="btn-floating blue darken-3" href="https://webmonstermx.wordpress.com/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a></li>
                 <li><a class="btn-floating red darken-4" href="https://es.pinterest.com/webmonstermx/" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
                 <li><a class="btn-floating blue" href="https://twitter.com/webmonstermx" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a class="btn-floating blue darken-3" href="https://www.facebook.com/WebMonsterMX" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a class="btn-floating blue darken-3" href="https://www.facebook.com/WebMonsterMX" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>              
               </ul>
             </div>
 
-              <div id="index-banner" class="parallax-container ">
+              <div id="index-banner" class="parallax-container">
                 <div class="section no-pad-bot">
-                  <div class="container ">
-
-                <video  height="500px" autoplay loop poster="/imgs/backgroundwm.png">
-                  <source src="skyline.webm" type="video/webm">
-                  <source src="skyline.mp4" type="video/mp4">
-                </video>
-
+                <div class="vidio">
+                  <video  height="500px" autoplay loop poster="/imgs/backgroundwm.png" class="vidio">
+                    <source src="skyline.webm" type="video/webm">
+                    <source src="skyline.mp4" type="video/mp4">
+                  </video>
+                </div>
                     <h1 class="header center text-lighten-2 animated bounceInDown retraso-1">We are Webmonster</h1>
                     <div class="row center">
                       <h5 class="header col s12 light animated bounceInDown retraso-2">Building high performance <strong>software</strong> for awesome companies </h5>
@@ -64,7 +65,6 @@
                     <div class="row center">
                       <a href="#about" id="download-button" class="btn-large waves-effect waves-light teal darken-3 animated bounceInDown retraso-3">Explore </a>
                     </div>
-                  </div>
                 </div>
                <!-- <div class="parallax"><img src="/imgs/backgroundwm.png" alt="Unsplashed background img 1"></div> -->
               </div>
@@ -85,7 +85,8 @@
                         <p class="left-align light">We specialize in web <b>applications</b> and web <b>services</b>, this means we have a lot of experience with <b>technologies</b> such as Javascript (frontend/backend), Websockets, WebRTC, local search engine <b>implementation/optimization</b>. </p>
                         </div>
                         <div class="col m4 center">
-                            <h3> &#60;3 software </h3>
+                            <h3> <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                            software </h3>
                             <p class="left-align light">We're a <b>devoted</b> software development <b>team</b>, who love challenges as well as working close <b>to our clients</b>.</p>
                             </div>
                     </div>
@@ -212,27 +213,7 @@
                       </div>
                     </div>
                     <!-- Carlos -->
-                    <div class="col s12 m4">
-                      <div class="card">
-                        <div class="card-content">
-                            <div class="row center">
-                            <img src="imgs/carlos.jpg" class="responsive-img circle wm-foto"/>
-                            </div>
-                            <div class="row center">
-                          <span class="card-title activator grey-text text-darken-4">Carlos García<i class="material-icons right">more_vert</i></span>
-                          <p><label>Web Developer / Graphic Designer</label></p>
-                            </div>
-                        </div>
-                        <div class="card-reveal">
-                          <span class="card-title grey-text text-darken-4"><div class="chip">
-                                <img src="imgs/carlos.jpg" alt="Contact Person">
-                                Carlos Ignacio García
-                              </div><i class="material-icons right">close</i></span>
-                          <p>I am designer and front-end web developer, customizable web pages for all -Responsive Design- devices and custom development or adaptation of WordPress themes. </p>
-                           <a  class="js-show-skills" data-teamid="#tab6" href="#tab6">Skills</a>
-                        </div> <!-- card reveal-->
-                      </div> <!-- card-->
-                    </div> <!-- col -->
+
                   </div> <!-- row-->
                 </div> <!-- section-->
               </div> <!-- container-->
@@ -246,7 +227,6 @@
                   <li class="tab col s3"> <a data-teamid="#tab3" class="team-member" href="#tab3">René</a></li>
                   <li class="tab col s3"> <a data-teamid="#tab4" class="team-member" href="#tab4">Denisse</a></li>
                   <li class="tab col s3"> <a data-teamid="#tab5" class="team-member" href="#tab5">Enrique</a></li>
-                  <li class="tab col s3"> <a data-teamid="#tab6" class="team-member" href="#tab6">Carlos</a></li>
                 </ul>
                 <div class="col s12" id="tab1">
                     <!-- skills tab1 -->
@@ -335,7 +315,8 @@
                 </ul>
             </div>
             <div class="card-action">
-              <a href="https://mx.linkedin.com/in/riosystems" target="_blank">Linkedin</a>
+              <a href="https://mx.linkedin.com/in/riosystems" target="_blank">LinkedIn</a>
+              <a href="https://cyberchakal.github.io/" target="_blank">Personal</a>
             </div>
           </div>
         </div>
@@ -543,12 +524,11 @@
               <p>
                 Jquery
                 HTML / CSS
-                SASS / LESS
+                SASS / 
                 UX / UI
                 Angular
                 Bootstrap
                 Materialize
-                HUGO
               </p>
             </div>
           </div>
@@ -573,60 +553,7 @@
                 </div>
                     <div class="col s12" id="tab6">
       <!-- skills tab6 carlos -->
-                          <section>
-                          <div class="row">
-                          <div class="col s12 m3">
-                            <div class="card blue-grey darken-1">
-                              <div class="card-content white-text">
-                                <span class="card-title">FrontEnd / Graphic Designer
-                                <div class="progress">
-                                    <div class="determinate" style="width: 85%"></div>
-                                </div>
-                                </span>
-                                  <ul>
-                                    <li>Web Developer</li>
-                                    <li>Front End</li>
-                                    <li>Graphic Designer</li>
-                                  </ul>
-                              </div>
-                            </div>
-                          </div>
-                            <div class="col s12 m3">
-                              <div class="card blue-grey darken-1">
-                                <div class="card-content white-text">
-                                  <span class="card-title">FrontEnd</span>
-                                  <div class="progress">
-                                     <div class="determinate" style="width: 95%"></div>
-                                   </div>
-                                  <p>
-                                    Jquery
-                                    HTML / CSS
-                                    SASS / LESS
-                                    UX / UI
-                                    Angular
-                                    Bootstrap
-                                    Materialize
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col s12 m3">
-                              <div class="card blue-grey darken-1">
-                                <div class="card-content white-text">
-                                  <span class="card-title">Desig</span>
-                                  <p>
-                                    Adobe Ilustrator
-                                    Adobe Photoshop
-                                    Corel Draw
-                                    Web Design
-                                    Responsive
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
 
-                          </div>
-                        </section>
           <!-- end skills tab carlos-->
                       </div>
               </div>
@@ -778,5 +705,3 @@
                 </script>
       </body>
     </html>
-
-<!-- >>>>>>> 556c7617083c151e6470b28b7efc9db60b513fc6 -->
